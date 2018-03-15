@@ -5,10 +5,8 @@
   toEuroPT.install = function (Vue) {
 
     /**
-     *
      * @param {Number} number
-     * @param {Number} decimal
-     *
+     * @param {Number} decimal 
      */
 
      Vue.filter('toEuroPT', function (number, decimals = 2) {
@@ -17,12 +15,12 @@
   }
 
   if (typeof exports == "object") {
-    module.exports = prettyBytes
+    module.exports = toEuroPT
   } else if (typeof define == "function" && define.amd) {
-    define([], function(){ return prettyBytes })
+    define([], function(){ return toEuroPT })
   } else if (window.Vue) {
-    window.prettyBytes = prettyBytes
-    Vue.use(prettyBytes)
+    window.toEuroPT = toEuroPT
+    Vue.use(toEuroPT)
   }
 
 })()
