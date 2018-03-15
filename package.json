@@ -1,14 +1,14 @@
 {
-  "name": "vue-filter-euro",
-  "version": "0.1.0",
-  "description": "Vue 2 Filter just for euro currency",
-  "main": "vue-filter-euro.js",
+  "name": "vue-filter-euro-pt",
+  "version": "0.1.1",
+  "description": "Vue 2 Filter just for euro currency (Portugal rules...)",
+  "main": "vue-filter-euro-pt.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sainf/vue-filter-euro.git"
+    "url": "git+https://github.com/sainf/vue-filter-euro-pt.git"
   },
   "keywords": [
     "vue",
@@ -19,8 +19,8 @@
   "author": "sainf.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sainf/vue-filter-euro/issues"
+    "url": "https://github.com/sainf/vue-filter-euro-pt/issues"
   },
-  "homepage": "https://github.com/sainf/vue-filter-euro#readme",
+  "homepage": "https://github.com/sainf/vue-filter-euro-pt#readme",
   "dependencies": {}
 }

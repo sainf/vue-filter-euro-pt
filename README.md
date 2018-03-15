@@ -1,5 +1,5 @@
 # vue-filter-euro-pt
-Vue 2 Filter just for euro currency (Portugal rules...)
+Vue 2 Filter just for euro currency and only portuguese local.
 
 ### Install
 
@@ -23,7 +23,7 @@ Vue.use(require('vue-filter-euro-pt'))
 ```
 {{ 11125.64 | toEuroPT(2) }}
 ```
-Return: 11.125,36 €
+Return: 11 125,36 €
 
 #### everywhere like methods, etc...
 
@@ -35,7 +35,7 @@ this.$options.filters.toEuroPT(15364878)
 
 ### Options
 
-Decimals - Integer
+Decimals - Integer * default (2)
 
 ```
 {{ 15364878 | toEuroPT(1) }}
