@@ -9,7 +9,7 @@
      * @param {Number} decimal 
      */
 
-     Vue.filter('toEuroPT', function (number) {
+     Vue.filter('toEuroPT', function (number, decimals) {
         decimals = decimals || 2
         return parseFloat(number).toFixed(decimals).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ").replace(".", ",") + ' €'
      })
