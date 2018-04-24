@@ -1,6 +1,6 @@
 {
   "name": "vue-filter-euro-pt",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Vue 2 Filter just for euro currency (Portugal rules...)",
   "main": "vue-filter-euro-pt.js",
   "scripts": {
